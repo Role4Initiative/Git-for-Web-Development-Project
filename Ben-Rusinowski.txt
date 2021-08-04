@@ -1,0 +1,42 @@
+https://codepen.io/role4initiative/pen/bGWjzjd
+
+
+Questions:
+
+    1. What is Semantic HTML? Using HTML in a way that gives the webpage clear meaning.
+    2. What is HTML used for? To give a webpage structure.
+    3. What is an attribute and where do we put it? Attributes are tags that a value can be attached to, they are put in quotations to be referenced in css.
+    4. What is the h1 tag used for? How many times should I use it on a page? The "h1" tag is used for the main heading and should only be used once per page.
+    5. Name two tags that have required attributes. "img" and "a".
+    6. What do we put in the head of our HTML document? "<body>"
+    7. What is an id? An attribute that is unique and can only be referenced once.
+    8. What elements can I add an id to? Any element.
+    9. How many times can I use the same id on a page? Once.
+    10. What is a class? A class is a way to give a specific name to an element.
+    11. What elements can I add a class to? Any element.
+    12. How many times can I use the same class on a page? Unlimited.
+    13. How do I get my link to open in a new tab? "_blank".
+    14. What is the alt attribute in the image tag used for? To change the provided text for an image.
+    15. How do I reference an id? "#element id"
+    16. What is the difference between a section and a div. A section reffers to a grouping of information while a div has no specific meaning.
+    17. What is CSS used for? To stylize a webpage.
+    18. How to we select an element? Example - every h2 on the page. h2 {example}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class and an id both identify an element but a class can be used for more than one element. An id would be used when there is to be only one of an element where a class for "h1" can be used many times.
+    20. How do we select classes in CSS? ".class {example}"
+    21. How do we select a p element with a single class of “human””? .human p {}
+    22. What is a parent child selector? When would this be useful? Used to select all of a "child" element under a "parent" selector.
+    23. How do you select all links within a div with the class of sidebar? .sidebar a:link {example}
+    24. What is a pseudo selector? Is a :keyword added to an element to cause an effect if the requirement is met such as :hover.
+    25. What do we use the change the spacing between lines? line-height: exsmple;
+    26. What do we use to change the spacing between letters? letter-spacing: example;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase; , text-transform: lowercase; , text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black? div {border: dotted 1px black;}
+    29. How do I select everything on the page? * {example}
+    30. How do I write a comment in CSS? /* example */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm , yes be careful with this.
+    34. Why should I use version control? To keep track of changes made to the code.
+    35. How often should I commit to github? Every 20 minutes.
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 1. fork the project  2. verify the project is forked properly so it is mine  3. clone to https  4. use the cd command to enter the proper directory  5. use git clone <link example>  6. cd command to the new repository directory  7. git checkout -b 'first-lastname' to make a branch of the code to edit  8. work on the repository assignment  9. git add . then git commit -m "helpful commit message"  10. git push -u origin branch-name  11. submit a pull request  12. check github to make sure you are on your forked version of the repository.
